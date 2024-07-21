@@ -1,0 +1,21 @@
+
+.order-item{
+	
+	.faq_header{
+		padding:0 ;
+
+	}
+
+	&-det{
+		padding: 10px;
+	
+
+		// &:not(:first-child){
+		// 	padding: 0 14px;
+		// }
+	}
+
+	.germent-table-item:nth-child(odd){
+	 background-color:  $col-gray-1;
+	}
+}
